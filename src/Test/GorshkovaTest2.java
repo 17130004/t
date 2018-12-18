@@ -4,11 +4,11 @@ import junit.framework.TestCase;
 
 import Program.SalaryCalcMain;
 
-public class GallyamovTest1 extends TestCase {
+public class GorshkovaTest2 extends TestCase {
 
 	public void testSalaryCalcMain(){
 		SalaryCalcMain calc = new SalaryCalcMain();
-		TestCase.assertEquals(24806.00, calc.calcSalary(25920.0, 2592.0, 3706.0));
+		TestCase.assertEquals(3753.75, calc.calcNalog(26250.0,2625.0,13.0));
 	}
 	
 }
